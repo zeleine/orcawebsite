@@ -96,6 +96,131 @@ body {
   height: 286px;
 }
 
+.conteudo-secundario {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+  margin-left: 50px;
+}
+
+.titulo2 {
+  display: flex;
+  justify-content: center;
+  margin: 70px;
+  margin-bottom: 60px;
+}
+
+.conteudo-secundario-escrito-titulo {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  color: #F9F9F9;
+}
+
+.botao {
+  display: flex;
+  justify-content: center;
+  margin: 70px;
+}
+
+.conteudo-secundario-escrito-botao {
+  background-color: #82AAAB;
+  width: 180px;
+  height: 60px;
+  border: none;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  font-family: 'outfit', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #1D273C;
+}
+
+.conteudo-secundario-escrito-botao:hover {
+  background-color: rgba(236, 214, 196, 0.53);
+}
+
+.conteudo-terciario-escrito {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.titulo3 {
+  display: flex;
+  justify-content: center;
+  margin: 70px;
+  margin-bottom: 60px;
+}
+
+.conteudo-terciario-escrito-titulo {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  color: #F9F9F9;
+}
+
+.conteudo-terciario-imagens {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.conteudo-terciario-textos {
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #F9F9F9;
+}
+
+.botao3 {
+  display: flex;
+  justify-content: center;
+  margin: 70px;
+}
+
+.conteudo-terciario-escrito-botao:hover {
+  background-color: rgba(236, 214, 196, 0.53);
+}
+
+.conteudo-terciario-escrito-botao {
+  background-color: #884F69;
+  width: 180px;
+  height: 60px;
+  border: none;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  font-family: 'outfit', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #F9F9F9;
+}
+
+.titulo4 {
+  display: flex;
+  justify-content: center;
+  margin: 70px;
+  margin-bottom: 60px;
+}
+
+.conteudo-quaternario-escrito-titulo {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  color: #F9F9F9;
+}
+
+.imagem-final {
+  display: flex;
+  justify-content: center;
+  margin: 70px;
+  margin-bottom: 60px;
+}
+
 .rodape {
   padding: 16px;
   border-top: 0.4px solid #884F69;
